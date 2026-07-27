@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.oritong.oritongsdiamondcore.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "botania.BotaniaEmiRecipeAccessor",
+    "botania.PureDaisyEmiRecipeMixin",
+    "emi.EmiRecipeFillerMixin",
+    "gtmqol.DataStickItemDecoratorMixin",
+    "merequester.MixinNumberField"
+  ],
+  "mixins": [
+    "ae2.MixinGenericStackInv",
+    "ae2.MixinSetProcessingPatternAmountScreen",
+    "extendedae.MixinInfinityCell",
+    "gtmthings.WirelessEnergyInterfaceMixin",
+    "gtm.machine.MixinParallelHatchPartMachine",
+    "pipez.EnergyPipeTypeMixin",
+    "pipez.PipeLogicTileEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1,
+    "maxShiftBy": 5
+  }
+}

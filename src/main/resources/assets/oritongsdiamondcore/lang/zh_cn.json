@@ -1,0 +1,9 @@
+{
+  "item.oritongsdiamondcore.configurable_maintenance_hatch": "可配置维护仓",
+  "item.oritongsdiamondcore.configurable_cleaning_maintenance_hatch": "可配置超净维护仓",
+  "item.oritongsdiamondcore.configurable_sterile_maintenance_hatch": "可配置无菌维护仓",
+  "oritongsdiamondcore.maintenance.configurable_duration": "时长: %sx",
+  "oritongsdiamondcore.maintenance.configurable_duration.modify": "调整:",
+  "oritongsdiamondcore.maintenance.configurable_duration.unchanged_description": "默认时长倍率",
+  "oritongsdiamondcore.maintenance.configurable_duration.changed_description": "当前时长倍率: %sx"
+}

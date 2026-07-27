@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GNU General Public License v3.0"
+issueTrackerURL=""
+
+[[mods]]
+modId="oritongsdiamondcore"
+version="1.0.5"
+displayName="Oritong's Diamond Core"
+#updateJSONURL=""
+#displayURL=""
+logoFile="oritongsdiamondcore.png"
+credits="Thanks to GTLCore for the reference"
+authors="oritong"
+description='''
+Compatibility and quality-of-life fixes for Oritong's Diamond modpack.
+
+Includes targeted mixins for AE2, GTCEu, Pipez, GTMThings, EMI, Tinkers' Construct,
+Botania, ExtendedAE, ME Requester, and GTM QOL.
+'''
+
+[[dependencies.oritongsdiamondcore]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.oritongsdiamondcore]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.oritongsdiamondcore]]
+    modId="ae2"
+    mandatory=true
+    versionRange="[15.0.0,)"
+    ordering="NONE"
+    side="BOTH"

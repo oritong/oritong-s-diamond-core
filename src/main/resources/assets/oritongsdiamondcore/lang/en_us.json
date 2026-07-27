@@ -1,0 +1,9 @@
+{
+  "item.oritongsdiamondcore.configurable_maintenance_hatch": "Configurable Maintenance Hatch",
+  "item.oritongsdiamondcore.configurable_cleaning_maintenance_hatch": "Configurable Cleaning Maintenance Hatch",
+  "item.oritongsdiamondcore.configurable_sterile_maintenance_hatch": "Configurable Sterile Maintenance Hatch",
+  "oritongsdiamondcore.maintenance.configurable_duration": "Duration: %sx",
+  "oritongsdiamondcore.maintenance.configurable_duration.modify": "Modify:",
+  "oritongsdiamondcore.maintenance.configurable_duration.unchanged_description": "Default duration multiplier",
+  "oritongsdiamondcore.maintenance.configurable_duration.changed_description": "Current duration multiplier: %sx"
+}
