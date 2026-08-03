@@ -11,11 +11,13 @@ It focuses on small cross-mod fixes:
 - EMI compatibility for Botania Pure Daisy fluid outputs
 - ME Requester input length adjustment
 - GTM QOL data stick crash guard
+- Industrial Foregoing + JEI recipe lookup normalization
+- BetterGTAE + AE2 crafting pattern hatch support
 
 ## Notes
 
 This mod is intended for a specific modpack-style environment. It uses mixins into several mods, so it should be tested together with the matching mod versions before being used in another pack.
 
-## Version 1.0.5
+## Version 1.0.9
 
-This release adds the mod logo and fixes Botania Pure Daisy recipes in EMI when the recipe output is a fluid.
+This release updates BetterGTAE's large molecular assembler so it can batch queued AE2 pattern outputs without a parallel hatch and preserves encoded smithing table and stonecutting pattern output data.

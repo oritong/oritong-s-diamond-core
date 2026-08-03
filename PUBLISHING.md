@@ -5,26 +5,26 @@
 Title:
 
 ```text
-Oritong's Diamond Core 1.0.5
+Oritong's Diamond Core 1.0.9
 ```
 
 Tag:
 
 ```text
-v1.0.5
+v1.0.9
 ```
 
 Release notes:
 
 ```markdown
-## Oritong's Diamond Core 1.0.5
+## Oritong's Diamond Core 1.0.9
 
 ### Changes
 
-- Added the mod logo to Forge metadata.
-- Fixed Botania Pure Daisy EMI recipes when the output is a fluid block or fluid-backed block state.
-- Fixed the first attempt at the Pure Daisy EMI patch so Botania's EMI plugin can load normally.
-- Includes the 1.0.4 compatibility fixes for Pipez, GTMThings, TConstruct crafting station recipe filling, GTMQOL data sticks, and GTCEu parallel hatches.
+- Updated BetterGTAE's large molecular assembler to batch queued pattern outputs without a parallel hatch, using a fixed `2147483647` run cap.
+- Improved encoded AE2 smithing table and stonecutting pattern output handling for the large molecular assembler.
+- Keeps the Industrial Foregoing subtype normalization, JEI startup fix, and BetterGTAE encoded pattern hatch support from 1.0.6/1.0.8.
+- Includes the 1.0.5 Botania Pure Daisy EMI fluid-output fix and previous compatibility fixes.
 
 ### Compatibility
 
@@ -36,7 +36,7 @@ Release notes:
 Attach this file:
 
 ```text
-build/libs/oritongsdiamondcore-1.0.5.jar
+build/libs/oritongsdiamondcore-1.0.9.jar
 ```
 
 ## Mod Hosting Page
@@ -67,6 +67,8 @@ It focuses on small cross-mod fixes:
 - EMI compatibility for Botania Pure Daisy fluid outputs
 - ME Requester input length adjustment
 - GTM QOL data stick crash guard
+- Industrial Foregoing + JEI recipe lookup normalization
+- BetterGTAE + AE2 crafting pattern hatch and large molecular assembler support
 
 This mod is intended for a specific modpack-style environment. It uses mixins into several mods, so it should be tested together with the matching mod versions before being used in another pack.
 ```
@@ -90,12 +92,15 @@ Forge 47+
 Minecraft 1.20.1
 Java 17
 Applied Energistics 2
+JEI
+Industrial Foregoing
+BetterGTAE
 ```
 
 Recommended environment:
 
 ```text
-AE2, ExtendedAE, GTCEu, Pipez, GTMThings, EMI, Tinkers' Construct, Mantle, Botania, ME Requester, GTM QOL
+AE2, ExtendedAE, GTCEu, Pipez, GTMThings, EMI, JEI, Tinkers' Construct, Mantle, Botania, ME Requester, GTM QOL, Industrial Foregoing, BetterGTAE
 ```
 
 License:

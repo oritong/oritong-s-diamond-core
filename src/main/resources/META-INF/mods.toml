@@ -5,7 +5,7 @@ issueTrackerURL=""
 
 [[mods]]
 modId="oritongsdiamondcore"
-version="1.0.5"
+version="1.0.9"
 displayName="Oritong's Diamond Core"
 #updateJSONURL=""
 #displayURL=""
@@ -16,7 +16,7 @@ description='''
 Compatibility and quality-of-life fixes for Oritong's Diamond modpack.
 
 Includes targeted mixins for AE2, GTCEu, Pipez, GTMThings, EMI, Tinkers' Construct,
-Botania, ExtendedAE, ME Requester, and GTM QOL.
+Botania, ExtendedAE, ME Requester, GTM QOL, Industrial Foregoing, and BetterGTAE.
 '''
 
 [[dependencies.oritongsdiamondcore]]
@@ -39,3 +39,24 @@ Botania, ExtendedAE, ME Requester, and GTM QOL.
     versionRange="[15.0.0,)"
     ordering="NONE"
     side="BOTH"
+
+[[dependencies.oritongsdiamondcore]]
+    modId="industrialforegoing"
+    mandatory=true
+    versionRange="[3.5.21,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.oritongsdiamondcore]]
+    modId="bettergtae"
+    mandatory=true
+    versionRange="[1.2.2,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.oritongsdiamondcore]]
+    modId="jei"
+    mandatory=true
+    versionRange="[15.20.0,)"
+    ordering="AFTER"
+    side="CLIENT"

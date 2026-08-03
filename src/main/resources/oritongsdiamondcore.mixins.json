@@ -8,11 +8,15 @@
     "botania.PureDaisyEmiRecipeMixin",
     "emi.EmiRecipeFillerMixin",
     "gtmqol.DataStickItemDecoratorMixin",
+    "industrial.JEICustomPluginMixin",
     "merequester.MixinNumberField"
   ],
   "mixins": [
     "ae2.MixinGenericStackInv",
     "ae2.MixinSetProcessingPatternAmountScreen",
+    "bettergtae.BGTAEMultiblockAMixin",
+    "bettergtae.CraftingPatternPartMachineMixin",
+    "bettergtae.LargeMolecularAssemblerMixin",
     "extendedae.MixinInfinityCell",
     "gtmthings.WirelessEnergyInterfaceMixin",
     "gtm.machine.MixinParallelHatchPartMachine",

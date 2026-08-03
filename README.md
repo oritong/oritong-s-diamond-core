@@ -14,6 +14,8 @@ It contains small, targeted mixins that patch cross-mod behavior, UI limits, and
 - EMI + Botania: fixes Pure Daisy EMI recipes whose outputs are fluids or fluid-backed block states.
 - ME Requester: increases number field length.
 - GTM QOL: guards data stick decoration against invalid recipe data.
+- Industrial Foregoing + JEI: normalizes machine addon recipe lookup for NBT-initialized dissolution chamber outputs, which also helps EMI through the JEI bridge.
+- BetterGTAE + AE2: lets the crafting pattern hatch accept, preview, and execute AE2 smithing table and stonecutting patterns, and lets the large molecular assembler batch queued pattern outputs without a parallel hatch.
 
 ## Requirements
 
