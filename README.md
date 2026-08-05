@@ -12,6 +12,7 @@ It contains small, targeted mixins that patch cross-mod behavior, UI limits, and
 - GTMThings: exposes the wireless energy interface as an FE receiver for Pipez compatibility.
 - EMI + Tinkers' Construct: improves shift-left-click recipe filling in the TConstruct crafting station, especially recipes with reusable tools.
 - EMI + Botania: fixes Pure Daisy EMI recipes whose outputs are fluids or fluid-backed block states.
+- EMI + O123456789: keeps recipe-tree amount labels on EMI's original layout so fluid amounts remain readable.
 - ME Requester: increases number field length.
 - GTM QOL: guards data stick decoration against invalid recipe data.
 - Industrial Foregoing + JEI: normalizes machine addon recipe lookup for NBT-initialized dissolution chamber outputs, which also helps EMI through the JEI bridge.

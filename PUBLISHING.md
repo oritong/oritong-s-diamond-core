@@ -5,24 +5,24 @@
 Title:
 
 ```text
-Oritong's Diamond Core 1.0.9
+Oritong's Diamond Core 1.0.10
 ```
 
 Tag:
 
 ```text
-v1.0.9
+v1.0.10
 ```
 
 Release notes:
 
 ```markdown
-## Oritong's Diamond Core 1.0.9
+## Oritong's Diamond Core 1.0.10
 
 ### Changes
 
-- Updated BetterGTAE's large molecular assembler to batch queued pattern outputs without a parallel hatch, using a fixed `2147483647` run cap.
-- Improved encoded AE2 smithing table and stonecutting pattern output handling for the large molecular assembler.
+- Fixed O123456789 compatibility with EMI's recipe tree from the core mod, keeping amount labels on EMI's original layout.
+- Keeps the BetterGTAE large molecular assembler fixes from 1.0.9.
 - Keeps the Industrial Foregoing subtype normalization, JEI startup fix, and BetterGTAE encoded pattern hatch support from 1.0.6/1.0.8.
 - Includes the 1.0.5 Botania Pure Daisy EMI fluid-output fix and previous compatibility fixes.
 
@@ -36,7 +36,7 @@ Release notes:
 Attach this file:
 
 ```text
-build/libs/oritongsdiamondcore-1.0.9.jar
+build/libs/oritongsdiamondcore-1.0.10.jar
 ```
 
 ## Mod Hosting Page
@@ -65,6 +65,7 @@ It focuses on small cross-mod fixes:
 - Pipez energy routing compatibility with GTCEu and GTMThings
 - EMI compatibility for Tinkers' Construct crafting stations
 - EMI compatibility for Botania Pure Daisy fluid outputs
+- EMI recipe tree amount label compatibility for O123456789
 - ME Requester input length adjustment
 - GTM QOL data stick crash guard
 - Industrial Foregoing + JEI recipe lookup normalization

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.10
+
+- Fixed O123456789 compatibility with EMI's recipe tree from the core mod by rendering recipe-tree amount labels with EMI's original layout before O123456789 can replace them.
+
 ## 1.0.9
 
 - Updated BetterGTAE's large molecular assembler to consume its queued pattern outputs with a fixed `2147483647` run cap instead of relying on a parallel hatch.

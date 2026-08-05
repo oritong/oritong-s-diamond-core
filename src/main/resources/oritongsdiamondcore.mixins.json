@@ -6,6 +6,7 @@
   "client": [
     "botania.BotaniaEmiRecipeAccessor",
     "botania.PureDaisyEmiRecipeMixin",
+    "emi.BoMScreenAmountMixin",
     "emi.EmiRecipeFillerMixin",
     "gtmqol.DataStickItemDecoratorMixin",
     "industrial.JEICustomPluginMixin",
